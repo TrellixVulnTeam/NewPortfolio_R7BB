@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>MY Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- FONT GOOGLE -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <!-- SWIPER CSS  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- MAIN CSS -->
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+        
+            <label for="navi-toggle" class="navigation__button">
+              <span class="navigation__icon">&nbsp;</span>
+            </label>
+        
+            <div class="navigation__background">&nbsp;</div>
+        
+            <nav class="navigation__nav">
+              <ul class="navigation__list">
+                <li class="navigation__item">
+                  <a href="#about-me" class="navigation__link"><span>01</span>About Me</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#resume" class="navigation__link"><span>02</span>Resume</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#skill" class="navigation__link"><span>03</span>Skill</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#portfolio" class="navigation__link"><span>04</span>Portfolio</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#contact" class="navigation__link"><span>05</span>Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+    </header>
+    <main>
+        <!-- SLIDER -->
+        <section class="section-intro intro section">
+            <canvas class="canvas"></canvas>
+            <div class="intro__content">
+                <div class="intro__logo-box">
+                    <a href="#" class="intro__logo">
+                        <span class="intro__logo-item">L</span>
+                        <span class="intro__logo-item">A</span>
+                        <span class="intro__logo-item">M</span>
+                    </a>
+                </div>
+                <div class="intro__content-box">
+                    <h1 class="heading-pink">Hi I'm
+                        <span class="heading-pink--main" style="color: deeppink;">[Nguyen Quang Lam]</span>.
+                        <span class="heading-pink--sub">I'm a [Front-end Developer]</span>
+                    </h1>
+                    <a class="btn-arrow" href="#about-me">
+                        View my work.
+                        <i class="fa fa-arrow-right btn-arrow--animated" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT ME -->
+        <section class="section-about part-about section" id="about-me">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">About Me</h2>
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <p class="paragraph"> Hi, My name is Lam. I'm a Frontend Developer. I am dedicated to web
+                        programming and
+                        willing to learn a new skill every day. I'm honesty, good communication, responsible and
+                        always ready to work on something new. </p>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Objectives</h3>
+                    <p class="paragraph"> My professional objectives are to develop and create good websites for users.
+                        Besides
+                        programming I have good communication skills, always deliver on time and guarantee 100%
+                        satisfaction and quality. </p>
+                    <div class="info">
+                        <a class="info__item" href="https://www.facebook.com/profile.php?id=100004018219330"
+                            target="_bank">
+                            <i class="fab fa-facebook-f info__logo"></i>
+                        </a>
+                        <a class="info__item" href="https://github.com/nqlam961997" target="_bank">
+                            <i class="fab fa-github info__logo"></i>
+                        </a>
+                    </div>
+                    <div class="info-cv">
+                        <a class="btn btn-text u-margin-top-small"
+                            href="./assets/[Fresher Front-end]Nguyen Quang Lam.pdf"
+                            download="[FRESHER_FRONT-END]NGUYEN_QUANG_LAM">View my CV</a>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <div class="figure">
+                        <img src="./img/hinhCV4.jpeg" alt="CV_img" class="figure__photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MY RESUME -->
+        <section class="section-resume section" id="resume">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">Resume</h2>
+            </div>
+            <div class="row">
+                <div class="timeline">
+                    <ul class="timeline__list">
+                        <li class="timeline__item">
+                            <div class="resume-content">
+                                <h3 class="heading-tertiary">Cybersoft - Cyberlearn Programing Education Center</h3>
+                                <div class="resume-content--time">
+                                    <h4 class="heading-four">June 2020 - Dec 2020</h4>
+                                </div>
+                                <ul class="resume-content--list">
+                                    <li class="resume-content--item">Programming course: thinking in programming,
+                                        problem-solving, Java language, OOP
+                                    </li>
+                                    <li class="resume-content--item">Front-end Foundation course: basic knowledge of
+                                        HTML5, CSS3, Boostrap 4,
+                                        SASS/SCSS, Javascript (ES5/ES6), AJAX, Git, ...</li>
+                                    <li class="resume-content--item">Learning and practicing with many Front-end
+                                        projects</li>
+                                    <li class="resume-content--item">Working on my own projects with learned Front-end
+                                        skills</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="timeline__item">
+                            <div class="resume-content">
+                                <h3 class="heading-tertiary">KYODAI VIETNAM</h3>
+                                <div class="resume-content--time">
+                                    <h4 class="heading-four">July 2019 - Feb 2020</h4>
+                                </div>
+                                <ul class="resume-content--list">
+                                    <li class="resume-content--item">As internship</li>
+                                    <li class="resume-content--item">Worked in Japan</li>
+                                    <li class="resume-content--item">Learning and practicing japanese in professional
+                                        development</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="timeline__item">
+                            <div class="resume-content">
+                                <h3 class="heading-tertiary">Lac Hong University</h3>
+                                <div class="resume-content--time">
+                                    <h4 class="heading-four">2015-2020</h4>
+                                </div>
+                                <ul class="resume-content--list">
+                                    <li class="resume-content--item">Japanese Major</li>
+                                    <li class="resume-content--item">I have learned the cultures and japanese</li>
+                                    <li class="resume-content--item">During learning in university, i have been
+                                        translating a lot of documents for
+                                        the companies</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <div style="clear: both;"></div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section-skills skill section" id="skill">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">My Skills</h2>
+            </div>
+            <div class="row">
+                <ul class="on-full-res skill__list skill--animated">
+                    <li class="skill__item">
+                        <span class="skill__item--unit ">
+                            <i class="fa fa-circle"></i>
+                            HTML/CSS</span>
+                        <span class="skill__item--short "><i class="fab fa-html5" style="color: orangered;"></i></span>
+                        <span class="skill__item--short "><i class="fab fa-css3-alt"
+                                style="color: rgb(45, 117, 211)"></i></span>
+                        <span class="skill__item--short "><i class="fab fa-bootstrap"
+                                style="color: rgb(84, 1, 161);"></i></span>
+                        <span class="skill__item--short "><i class="fab fa-sass"
+                                style="color: rgb(223, 98, 165);"></i></span>
+                        <span class="skill__item--short ">Responsive</span>
+                    </li>
+                    <li class="skill__item">
+                        <span class="skill__item--unit">
+                            <i class="fa fa-circle"></i>
+                            Javascript</span>
+                        <span class="skill__item--short ">ES5/ES6</span>
+                        <span class="skill__item--short ">AJAX</span>
+                        <span class="skill__item--short ">AXIOS</span>
+                    </li>
+                    <li class="skill__item">
+                        <span class="skill__item--unit">
+                            <i class="fa fa-circle"></i>
+                            React JS</span>
+                        <span class="skill__item--long ">React Hooks</span>
+                        <span class="skill__item--short ">ROUTER</span>
+                        <span class="skill__item--short ">REDUX</span>
+                    </li>
+                    <li class="skill__item">
+                        <span class="skill__item--unit">
+                            <i class="fa fa-circle"></i>
+                            GitHub</span>
+                        <span class="skill__item--long ">Git basic</span>
+                    </li>
+                    <li class="skill__item">
+                        <span class="skill__item--unit">
+                            <i class="fa fa-circle"></i>
+                            Knowledge base</span>
+                        <span class="skill__item--short "> OOP </span>
+                    </li>
+                    <li class="skill__item">
+                        <span class="skill__item--unit">
+                            <i class="fa fa-circle"></i>
+                            Soft skills</span>
+                        <span class="skill__item--short "> Teamwork </span>
+                        <span class="skill__item--long "> Self study </span>
+                        <span class="skill__item--long"> Time management </span>
+                    </li>
+                    <li class="skill__item">
+                        <span class="skill__item--unit">
+                            <i class="fa fa-circle"></i>
+                            Languages</span>
+                        <span class="skill__item--long"> English basic </span>
+                        <span class="skill__item--long"> Japanese N2 (12/2019) </span>
+                    </li>
+                </ul>
+                <ul class="hide-on-large-only down-kill">
+                    <li class="collapsible-item">
+                        <div class="collapsible-header">
+                            <span class="skill-unit skill">
+                                <i class="fa fa-circle"></i>
+                                HTML/CSS</span>
+                        </div>
+                        <div class="collapsible-body">
+                            <div class="collapsible-body-content">
+                                <span class="skill-item skill"><i class="fab fa-html5"
+                                        style="color: orangered;"></i></span>
+                                <span class="skill-item skill"><i class="fab fa-css3-alt"
+                                        style="color: rgb(45, 117, 211)"></i></span>
+                                <span class="skill-item skill"><i class="fab fa-bootstrap"
+                                        style="color: rgb(84, 1, 161);"></i></span>
+                                <span class="skill-item skill"><i class="fab fa-sass"
+                                        style="color: rgb(223, 98, 165);"></i></span>
+                                <span class="skill-item skill">Responsive</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="collapsible-item">
+                        <div class="collapsible-header">
+                            <span class="skill-unit skill">
+                                <i class="fa fa-circle"></i>
+                                Javascript</span>
+                        </div>
+                        <div class="collapsible-body">
+                            <div class="collapsible-body-content">
+                                <span class="skill-item skill">ES5/ES6</span>
+                                <span class="skill-item skill">JQUERY</span>
+                                <span class="skill-item skill">AJAX</span>
+                                <span class="skill-item skill">AXIOS</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="collapsible-item">
+                        <div class="collapsible-header">
+                            <span class="skill-unit skill">
+                                <i class="fa fa-circle"></i>
+                                GitHub</span>
+                        </div>
+                        <div class="collapsible-body">
+                            <div class="collapsible-body-content">
+                                <span class="skill-item skill">Git basic</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="collapsible-item">
+                        <div class="collapsible-header">
+                            <span class="skill-unit skill">
+                                <i class="fa fa-circle"></i>
+                                Knowledge base
+                            </span>
+                        </div>
+                        <div class="collapsible-body">
+                            <div class="collapsible-body-content">
+                                <span class="skill-item skill"> OOP </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="collapsible-item">
+                        <div class="collapsible-header">
+                            <span class="skill-unit skill">
+                                <i class="fa fa-circle"></i>
+                                Soft skills</span>
+                        </div>
+                        <div class="collapsible-body">
+                            <div class="collapsible-body-content">
+                                <span class="skill-item skill"> Teamwork </span>
+                                <span class="skill-item skill"> Self study </span>
+                                <span class="skill-item skill skill-item-long"> Time management </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="collapsible-item">
+                        <div class="collapsible-header">
+                            <span class="skill-unit skill">
+                                <i class="fa fa-circle"></i>
+                                Languages</span>
+                        </div>
+                        <div class="collapsible-body">
+                            <div class="collapsible-body-content">
+                                <span class="skill-item skill skill-item-long"> English basic </span>
+                                <span class="skill-item skill skill-item-long"> Japanese N2 (12/2019) </span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+        <section class="section-portfolio section" id="portfolio">
+            <div class="u-center-text u-margin-bottom-medium">
+                <h2 class="heading-secondary">Portfolio</h2>
+            </div>
+            <div class="portfolio-wrapper">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="port-img port-img2">
+                                <div class="port-content">
+                                    <h3 class="port-content__main">Cybermovie Website</h3>
+                                    <p class="port-content__time">Oct 2020 - Dec 2020</p>
+                                    <ul class="port-content__list">
+                                        <li class="port-content__item"><span>Description:</span> A website for getting
+                                            the information movie
+                                            and booking ticket.</li>
+                                        <li class="port-content__item"><span>Responsibility:</span> Development</li>
+                                        <li class="port-content__item" <span>Technology:</span>ReactJS, HTML5, CSS3,
+                                            ES6, Bootstrap4,
+                                            SASS/SCSS, Jquery, Animate, Axios</li>
+                                    </ul>
+                                    <a class="btn-port btn-port__1"
+                                        href="https://cyber-movie.surge.sh/?fbclid=IwAR1tHI-Pp6kXMVKHhL2VhBAHHspxXhiX6IKtdqR7JFPN74_FV62ndu0Vg_o"
+                                        target="_bank">Link Demo</a>
+                                    <a class="btn-port btn-port__2"
+                                        href="https://github.com/nqlam961997/BookingTicketMovie" target="_bank">Link
+                                        Git</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="port-img port-img1">
+                                <div class="port-content">
+                                    <h3 class="port-content__main">Fiverr Homepage</h3>
+                                    <p class="port-content__time">July 2020 - Aug 2020</p>
+                                    <ul class="port-content__list">
+                                        <li class="port-content__item"><span>Description:</span> A clone UI website of
+                                            Fiverr with full
+                                            responsive.</li>
+                                        <li class="port-content__item"><span>Responsibility:</span> Development</li>
+                                        <li class="port-content__item"><span>Technology:</span> HTML5, CSS3, Bootstrap4,
+                                            SASS/SCSS,
+                                            Animate</li>
+                                    </ul>
+                                    <a class="btn-port btn-port__1"
+                                        href="http://fivver1.surge.sh/?fbclid=IwAR3sb_4HPVIbic2bmWSgcph2jx14kh5fiHPCTAuVoGbGVkt-NNxTFh2bx5w#carouselExampleControls"
+                                        target="_bank">Link Demo</a>
+                                    <a class="btn-port btn-port__2" href="https://github.com/nqlam961997/Fiverr"
+                                        target="_bank">Link Git</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="port-img port-img3">
+                                <div class="port-content">
+                                    <h3 class="port-content__main">MY PORTFOLIO</h3>
+                                    <p class="port-content__time">Dec 2020 - Present</p>
+                                    <ul class="port-content__list">
+                                        <li class="port-content__item"><span>Description:</span> My portfolio where you
+                                            can get my information
+                                            online and visit my done projects.</li>
+                                        <li class="port-content__item"><span>Responsibility:</span> Development</li>
+                                        <li class="port-content__item"><span>Technology:</span>HTML5, CSS3, Bootstrap 4,
+                                            SASS/SCSS,Javascript
+                                            ES6, Swiper, Canvas
+                                        </li>
+                                    </ul>
+                                    <a class="btn-port btn-port__2"
+                                        href="https://github.com/nqlam961997/myportfolio.github.io" target="_bank">Link
+                                        Git</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            </div>
+
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section-contact contact section" id="contact">
+            <div class="u-center-text u-margin-bottom-medium">
+                <h2 class="heading-secondary">Contact Me</h2>
+            </div>
+            <div class="row">
+                <p class="contact__last u-margin-bottom-medium">Thank you to spend your time visiting my page! Hope that
+                    we can have a
+                    chance to work together.
+                </p>
+                <div class="contact__box">
+                    <div class="contact__card">
+                        <div class="contact__icon">
+                            <i class="fa fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact__content">
+                            <h5>Address</h5>
+                            <p>Dong Hoa, Di An, Binh Duong</p>
+                        </div>
+                    </div>
+                    <div class="contact__card">
+                        <div class="contact__icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="contact__content">
+                            <h5>Email</h5>
+                            <p>nqlam961997@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact__card">
+                        <div class="contact__icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="contact__content">
+                            <h5>Phone</h5>
+                            <p>0392-351-197</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p><i class="fas fa-copyright"></i> Nguyen Quang Lam - 2020</p>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="./canvas.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

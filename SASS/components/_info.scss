@@ -1,0 +1,43 @@
+.info {
+    @include respond(tab-port){
+        text-align: center;
+    }
+    &__item {
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        height: 32px;
+        width: 32px;
+        border-radius: 50%;
+        background-color: $color-pink-light;
+        transition: all 0.3s;
+        position: relative;
+        &:not(:last-child){
+            margin-right: 25px;
+        }
+        &:nth-child(1) {
+            &:hover {   
+                background-color: #3578e5;
+            }
+        }
+        &:nth-child(2) {    
+            &:hover {
+                background-color: #1b1f23;
+            }
+        }
+    }
+    &__logo{
+        color: $color-white;
+        font-size: $default-font-size;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+.info-cv{
+    @include respond(tab-port){
+        text-align: center;
+    }
+}

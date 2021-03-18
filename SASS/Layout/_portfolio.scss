@@ -1,0 +1,143 @@
+.portfolio-wrapper {
+    position: relative;
+    // padding: 40px 0;
+    max-width: 996px;
+    // max-height: 768px;
+    margin: 0 auto;
+    .swiper-container {
+        width: 100%;
+        height: 57.5rem;
+        .swiper-slide {
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            overflow: hidden;
+            .port-img {
+                border: 2px solid rgba($color-info-dark, 0.7);
+                border-radius: 20px;
+                width: 65%;
+                height: 33.75rem;
+                position: relative;
+                box-shadow: 0 2.8px 2.3px -34px rgba($color-info-dark, 0.206), 0 9.4px 7.8px -34px rgba($color-info-dark, 0.304),
+                    0 42px 35px -34px rgba($color-info-dark, 0.51);
+                transition: all .2s ease;
+                @include respond(phone){
+                    margin-left: -2rem;
+                    border: none;
+                }
+                &:hover .port-content {
+                    opacity: 1;
+                    visibility: visible;
+                    top: 50%;
+                    left: 50%;
+                }
+            }
+        }
+        .swiper-button-next,
+        .swiper-button-prev {
+            color: $color-info-dark;
+        }
+        .swiper-pagination {
+            .swiper-pagination-bullet {
+                height: 12px;
+                width: 12px;
+                background-color: rgba($color-info-dark, 0.7);
+                margin: 0 15px;
+            }
+        }
+    }
+}
+
+.portfolio-wrapper {
+    .swiper-container {
+        .swiper-slide {
+            .port-img1 {
+                background: url(../img/hinhWebFiverr.png) no-repeat center;
+                background-size: cover;
+                background-position: center;
+                object-fit: cover;
+            }
+            .port-img2 {
+                background: url(../img/hinhWebPhim.png) no-repeat center;
+                background-size: cover;
+                background-position: center;
+                object-fit: cover;
+            }
+            .port-img3 {
+                background: url(../img/myportfolio.png) no-repeat center;
+                background-size: cover;
+                background-position: center;
+                object-fit: cover;
+            }
+        }
+    }
+}
+.portfolio-wrapper {
+    .swiper-container {
+        .swiper-slide {
+            .port-content {
+                opacity: 0;
+                visibility: hidden;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 50%;
+                background: rgba($color-info-dark, 0.9);
+                border: 2px solid $color-dark;
+                border-radius: 20px;
+                transition: all 0.3s ease-in-out;
+                padding: 4rem;
+                color: $color-white;
+                @include respond(tab-port){
+                    opacity: 1;
+                    visibility: visible;
+                    top: 45%;
+                    left: 45%;
+                }
+                @include respond(phone){
+                    opacity: 1;
+                    background: rgba($color-info-dark, 0.75);
+                    visibility: visible;
+                    top: 0;
+                    left: 0;
+                    width: 80%;
+                    height: 25.75rem;   
+                }
+                &__main {
+                    font-size: 1.5rem;
+                    @include respond(phone){
+                        font-size: 2rem;
+                    }
+                }
+                &__time {
+                    font-size: 0.8rem;
+                    @include respond(phone){
+                        font-size: 1rem;
+                    }
+                }
+                &__list {
+                    padding: 1rem 1.5rem;
+                    @include respond(phone){
+                        padding: 1.5rem 2rem;
+                    }
+                }
+                &__item{
+                    font-size: 0.9rem;
+                    @include respond(phone){
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
